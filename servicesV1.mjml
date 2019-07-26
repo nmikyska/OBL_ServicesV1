@@ -1,0 +1,196 @@
+<mjml>
+  <mj-head>
+    <mj-style inline="inline">
+      .bold {
+        font-weight: 800 !important;
+        color: #e43c03 !important;
+        text-transform: uppercase !important;
+      }
+      h2{
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+      }
+      .link{
+        color: #ffffff !important;
+        text-decoration: none !important;
+      }
+      .link:hover{
+        color: #ffffff !important;
+        text-decoration: none !important;
+      }
+      .learn{
+        color: #000000 !important;
+        text-decoration: none !important;
+        border: 1px solid #000000 !important;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+      }
+      .learn:hover{
+        background-color: #000000 !important;
+        color: #ffffff !important;
+        text-decoration: none !important;
+        border: 1px solid #000000 !important;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+      }
+      
+    </mj-style>
+    <!--preview-->
+    <mj-preview>OBL Financial </mj-preview>
+    <mj-title>OBL Financial</mj-title>
+  </mj-head>
+  <mj-body>
+    <!--start header logo section-->
+      <mj-section background-color="#ffffff">
+        <mj-column>
+          <mj-image width="600px" src="http://www.nmikyska.com/emails/obl1/logo-lg.jpg" />
+        </mj-column>
+      </mj-section>
+    <!--end header logo section-->
+    <!--start of header nav section-->
+
+      <mj-section background-color="#013475">
+        <mj-column>
+          <mj-navbar base-url="https://www.oblfinancial.com" hamburger="hamburger" ico-color="#ffffff">
+              <mj-navbar-link href="https://www.oblfinancial.com/programs" color="#ffffff">Programs</mj-navbar-link>
+              <mj-navbar-link href="https://www.oblfinancial.com/services" color="#ffffff">services</mj-navbar-link>
+              <mj-navbar-link href="https://www.oblfinancial.com/solutions" color="#ffffff">Solutions</mj-navbar-link>
+              <mj-navbar-link href="https://www.oblfinancial.com/aplly" color="#ffffff">Apply</mj-navbar-link>
+          </mj-navbar>
+        </mj-column>
+      </mj-section>
+    <!--end of header nav section-->
+    <!--start of hero image-->
+      <mj-wrapper padding-top="0px" padding-bottom="0px">
+        <mj-hero
+          mode="fluid-height"
+          background-width="600px"
+          background-height="400px"
+          background-url="http://www.nmikyska.com/emails/obl1/officeGroup.jpg"
+          background-color="#2a3448"
+          padding="100px 0px"
+          >
+        <!-- To add content like mj-image, mj-text, mj-button ... use the mj-hero-content component -->
+          <mj-text
+            padding="15px"
+            color="#ffffff"
+            font-family="Helvetica"
+            align="center"
+            font-size="30px"
+            line-height="35px"
+            font-weight="400">
+            In a world of computers...<br /> We're <span class="bold"> real </span>people. Investing in <span class="bold">you</span>.
+          </mj-text>
+        <mj-button href="https://www.oblfinancial.com/" align="center" background-color="#e43c03" font-size="20px" line-height="26px" padding-top="30px" text-transform="uppercase">
+        Click or call <br />
+          630-850-7180
+        </mj-button>
+      </mj-hero>
+    </mj-wrapper>
+  <!--end of hero image-->
+  <!--start of image/text section-->
+    <mj-section padding-top="10px"    padding-left="0px" padding-left="0px" background-color="#ffffff">
+    <mj-group>
+      <mj-column width="40%" padding="0px 0px 0px 0px">
+        <mj-image width="600px" align="left" padding="0px 10px 0px 0px" src="http://www.nmikyska.com/emails/obl1/TruckingServices.jpg" alt="truck" />
+      </mj-column>
+      
+      <mj-column width="60%" padding="0px">
+        <mj-text align="left" padding="0px 10px 0px 0px" font-size="16px" line-height="16px">
+          <h2>Trucking</h2>
+          </mj-text>
+          <mj-text align="left" padding="0px 10px 0px 0px" font-size="14px" line-height="17px">
+          <p>OBL Financial has been financing Owner Operators and Small Fleets, both new and experienced, since 1999. </p>
+          
+          <p>Working with lenders to approve and fund your truck and trailer purchases.</p>
+          <p><a href="https://www.#.com" class="learn">Learn More</a></p>
+         </mj-text>
+         
+      </mj-column>
+      </mj-group>
+    </mj-section>
+  <!--end of 1st img/text section-->
+  <!--start of divider-->
+   <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-divider border-width="1px" border-style="solid" border-color="#013475" width="200px" />
+      </mj-column>
+    </mj-section>
+  <!--end of divider-->
+  <!--start of 2nd img/text section-->
+    <mj-section padding-top="10px"  padding-left="0px" padding-left="0px" background-color="#ffffff">
+    <mj-group>
+      <mj-column width="60%" padding="0px">
+        <mj-text align="left" padding="0px 0px 0px 10px" font-size="16px" line-height="16px">
+          <h2>Machinery</h2>
+          </mj-text>
+          <mj-text align="left" padding="0px 0px 0px 10px" font-size="14px" line-height="17px">
+          <p>Having the right equipment to do the job is essential. We provide financing to make sure you have the tools and equipment you need.</p>
+          
+          <p>Let us help you to get your shop running to its best potential.</p>
+          <p><a href="https://www.#.com" class="learn">Learn More</a></p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="40%" padding="0px 0px 0px 0px">
+      
+        <mj-image width="350px" align="left" padding="0px 0px 0px 10px" src="http://www.nmikyska.com/emails/obl1/factory.jpg" alt="factory"/>
+      </mj-column>
+      </mj-group>
+    </mj-section>
+  <!--end of 2nd img/text section-->
+  <!--start of button-->
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-button font-family="Helvetica" background-color="#e43c03" color="white" font-size="20px" text-transform="uppercase">
+          <a href="https//www.#.com" class="link" target="_blank">
+            Click now to begin the process!
+          </a>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+  <!--end of button-->
+  <!--start of divider-->
+   <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-divider border-width="2px" border-style="solid" border-color="#013475" />
+      </mj-column>
+    </mj-section>
+  <!--end of divider-->
+  <!--start of socials-->
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-text align="center" text-transform="uppercase" color="#e43c03">
+        <h2>Follow us</h2>
+        </mj-text>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+          <mj-social-element name="facebook" href="https://www.facebook.com/OBLfinancialinc/">
+           </mj-social-element>
+            <mj-social-element  name="twitter" href="https://www.twitter.com/OBLFinancial"> 
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+  <!--end of socials-->
+  <!--start of footer-->
+     <mj-section background-color="#013475" padding-bottom="5px">
+      <mj-column padding-bottom="40px">
+        <mj-text color="#ffffff" align="center" font-family="Helvetica, Arial, 'sans-serif'">
+          <h3>
+            OBL Financial
+          </h3>
+          <p>799 Roosevelt Road, #6-215, Glen Ellyn, IL 60137</p>
+          <p><a href="tel:630-850-7180" class="link">630-850-7180</a></p>
+          <p><a href="https://www.oblfinancial.com"  class="link">www.oblfinancial.com</p>
+          <br />
+          <p><a href="https://www.#.com"  class="link">Privacy Policy</a>&nbsp;&nbsp; | &nbsp;&nbsp;<a href="https://www.#.com"  class="link">Unsubscribe</a></p>
+          <p>Copyright &copy; 2019 OBL Financial Services | All Rights Reserved</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  <!--end of footer-->
+  </mj-body>
+</mjml>
